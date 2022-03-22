@@ -133,3 +133,5 @@ axios
     // return appendFile('./polygonData2.json', JSON.stringify(polygonData));
   })
   .catch((err) => console.log(err));
+
+//WFG
