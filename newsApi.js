@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { newsKey } = require('newsKey');
+const { newsKey } = require('./secret-info');
 
 axios
   .get(

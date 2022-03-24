@@ -2345,7 +2345,10 @@ const esgCompanies = data.map((entry) => {
   company.environmentLevel = entry.environment_level;
   company.socialLevel = entry.social_level;
   company.governanceLevel = entry.governance_level;
+  company.name = entry.company_name;
+  company.exchangeSymbol = entry.exchange_symbol;
+  company.total = entry.total;
   return company;
 });
 
-appendFile('./esgData.json', JSON.stringify(esgCompanies));
+appendFile('./detailedEsgData.json', JSON.stringify(esgCompanies));

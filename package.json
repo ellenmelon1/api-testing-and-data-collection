@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
+    "google-kgsearch": "^0.1.1",
     "node-fetch": "^3.2.3"
   }
 }
