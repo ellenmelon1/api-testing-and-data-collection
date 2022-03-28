@@ -191,27 +191,6 @@ const data = [
     total: 1100,
   },
   {
-    esg_id: 3671,
-    company_name: 'IHS Markit Ltd.',
-    exchange_symbol: 'NYSE',
-    stock_symbol: 'INFO',
-    environment_grade: 'AA',
-    environment_level: 'Excellent',
-    social_grade: 'BB',
-    social_level: 'Medium',
-    governance_grade: 'BB',
-    governance_level: 'Medium',
-    total_grade: 'A',
-    total_level: 'High',
-    disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
-    last_processing_date: '13-03-2022',
-    environment_score: 613,
-    social_score: 309,
-    governance_score: 345,
-    total: 1267,
-  },
-  {
     esg_id: 6733,
     company_name: 'STMicroelectronics N.V.',
     exchange_symbol: 'XPAR',
@@ -1789,27 +1768,6 @@ const data = [
     total: 1094,
   },
   {
-    esg_id: 7836,
-    company_name: 'Xilinx, Inc.',
-    exchange_symbol: 'NASDAQ',
-    stock_symbol: 'XLNX',
-    environment_grade: 'BB',
-    environment_level: 'Medium',
-    social_grade: 'BB',
-    social_level: 'Medium',
-    governance_grade: 'BB',
-    governance_level: 'Medium',
-    total_grade: 'BB',
-    total_level: 'Medium',
-    disclaimer:
-      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
-    last_processing_date: '15-03-2022',
-    environment_score: 340,
-    social_score: 303,
-    governance_score: 300,
-    total: 943,
-  },
-  {
     esg_id: 1236,
     company_name: 'Cadence Design Systems, Inc.',
     exchange_symbol: 'NASDAQ',
@@ -1936,65 +1894,68 @@ const data = [
     total: 600,
   },
   {
-		esg_id: 3533,
-		company_name: "Hologic, Inc.",
-		exchange_symbol: "NASDAQ",
-		stock_symbol: "HOLX",
-		environment_grade: "A",
-		environment_level: "High",
-		social_grade: "BB",
-		social_level: "Medium",
-		governance_grade: "BB",
-		governance_level: "Medium",
-		total_grade: "BBB",
-		total_level: "High",
-		disclaimer: "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
-		last_processing_date: "13-03-2022",
-		environment_score: 525,
-		social_score: 339,
-		governance_score: 300,
-		total: 1164
-	},
-	{
-		esg_id: 2825,
-		company_name: "Flex Ltd.",
-		exchange_symbol: "NASDAQ",
-		stock_symbol: "FLEX",
-		environment_grade: "A",
-		environment_level: "High",
-		social_grade: "BB",
-		social_level: "Medium",
-		governance_grade: "BB",
-		governance_level: "Medium",
-		total_grade: "BBB",
-		total_level: "High",
-		disclaimer: "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
-		last_processing_date: "12-03-2022",
-		environment_score: 500,
-		social_score: 306,
-		governance_score: 300,
-		total: 1106
-	},
-	{
-		esg_id: 7008,
-		company_name: "Tesco PLC",
-		exchange_symbol: "FALSE",
-		stock_symbol: "TSCO",
-		environment_grade: "A",
-		environment_level: "High",
-		social_grade: "BB",
-		social_level: "Medium",
-		governance_grade: "BB",
-		governance_level: "Medium",
-		total_grade: "BBB",
-		total_level: "High",
-		disclaimer: "ESG Enterprise's ESG Rating data (\"Scores\") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.",
-		last_processing_date: "15-03-2022",
-		environment_score: 528,
-		social_score: 317,
-		governance_score: 300,
-		total: 1145
-	},
+    esg_id: 3533,
+    company_name: 'Hologic, Inc.',
+    exchange_symbol: 'NASDAQ',
+    stock_symbol: 'HOLX',
+    environment_grade: 'A',
+    environment_level: 'High',
+    social_grade: 'BB',
+    social_level: 'Medium',
+    governance_grade: 'BB',
+    governance_level: 'Medium',
+    total_grade: 'BBB',
+    total_level: 'High',
+    disclaimer:
+      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+    last_processing_date: '13-03-2022',
+    environment_score: 525,
+    social_score: 339,
+    governance_score: 300,
+    total: 1164,
+  },
+  {
+    esg_id: 2825,
+    company_name: 'Flex Ltd.',
+    exchange_symbol: 'NASDAQ',
+    stock_symbol: 'FLEX',
+    environment_grade: 'A',
+    environment_level: 'High',
+    social_grade: 'BB',
+    social_level: 'Medium',
+    governance_grade: 'BB',
+    governance_level: 'Medium',
+    total_grade: 'BBB',
+    total_level: 'High',
+    disclaimer:
+      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+    last_processing_date: '12-03-2022',
+    environment_score: 500,
+    social_score: 306,
+    governance_score: 300,
+    total: 1106,
+  },
+  {
+    esg_id: 7008,
+    company_name: 'Tesco PLC',
+    exchange_symbol: 'FALSE',
+    stock_symbol: 'TSCO',
+    environment_grade: 'A',
+    environment_level: 'High',
+    social_grade: 'BB',
+    social_level: 'Medium',
+    governance_grade: 'BB',
+    governance_level: 'Medium',
+    total_grade: 'BBB',
+    total_level: 'High',
+    disclaimer:
+      'ESG Enterprise\'s ESG Rating data ("Scores") are all based on public information and provided for informational purposes only. No member of ESG Enterprise or related parties make any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the suitability of our Scores for any particular purposes or the validity of any derivative analysis or conclusion based on the Scores.',
+    last_processing_date: '15-03-2022',
+    environment_score: 528,
+    social_score: 317,
+    governance_score: 300,
+    total: 1145,
+  },
   {
     esg_id: 1600,
     company_name: 'Chipotle Mexican Grill, Inc.',
@@ -2060,7 +2021,19 @@ const data = [
   },
 ];
 
-const esgCompanies = data.map((entry) => {
+function compare_symbol(a, b) {
+  if (a.stock_symbol.toLowerCase() < b.stock_symbol.toLowerCase()) {
+    return -1;
+  }
+  if (a.stock_symbol.toLowerCase() > b.stock_symbol.toLowerCase()) {
+    return 1;
+  }
+  return 0;
+}
+
+const orderedData = data.sort(compare_symbol);
+
+const esgCompanies = orderedData.map((entry) => {
   const company = {};
   company.ticker = entry.stock_symbol;
   company.environmentScore = entry.environment_score;
@@ -2075,4 +2048,4 @@ const esgCompanies = data.map((entry) => {
   return company;
 });
 
-appendFile('./detailedEsgData.json', JSON.stringify(esgCompanies));
+// appendFile('./ordered_esg_data.json', JSON.stringify(esgCompanies));
